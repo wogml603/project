@@ -49,7 +49,7 @@ nav ul li a:hover {
 <body>
 	<div class="wrap">
 		<div class="header">
-			<h1 class="title">CARE LAB</h1>
+			<h1 class="title">WEB PROJECT</h1>
 		</div>
 	</div>
 	<div class="navdiv">

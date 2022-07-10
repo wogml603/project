@@ -7,12 +7,20 @@
 <title>Insert title here</title>
 </head>
 <body>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ include file="../default/header.jsp" %>
 <div align="center">
-	<table border="1">
-		<tr>
-			<th>번호</th> <th>id</th> <th>제목</th> <th>날짜</th>
-			<th>조회수</th> <th>이미지이름</th>
+	<br>
+	<h3 align="center">- B O A R D -</h3>
+	<br>
+	<table class="table table-bordered" style="width:700px; margin: 0 auto;">
+		<tr style="background-color:#FFFFF6; ">
+			<th><div>번호</div></th>
+			<th><div>id</div></th> 
+			<th><div>제목</div></th>
+			<th><div>날짜</div></th>
+			<th><div>조회수</div></th> 
+			<th><div>이미지이름</div></th>
 		</tr>
 		<c:if test="${boardList.size() == 0 }">
 			<tr><th colspan="6">등록된 글이 없습니다</th></tr>

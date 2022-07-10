@@ -22,7 +22,7 @@
 			<c:forEach var="dto" items="${noticeList }">
 				<tr>
 					<td>${dto.n_number}</td>
-					<td>${dto.n_title }</td>			
+					<td><a href="noticeView?n_number=${dto.n_number}">${dto.n_title }</a></td>			
 					<td>${dto.n_hit }</td>			
 					<td>${dto.n_saveDate }</td>	
 				</tr>		
